@@ -1,0 +1,117 @@
+
+<!doctype html>
+
+<html lang="es">
+
+<head>
+
+  <!-- Meta section -->
+  <meta charset="utf-8">
+  <meta name="description" content="COVID-19 | Centro de Salud AprenderIT">
+  <meta name="author" content="AprenderIT">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Page info -->
+  <title>COVID-19 | Centro de Salud AprenderIT</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-custom navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="logoAIT">
+                    <img src="/img/aprenderit.png" class="img-fluid" width="160px" alt="centro de salud aprenderit">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div class="contentPrincipal">
+
+                <h1 id="title">El Coronavirus</h1>
+                <h2 id="subtitle">es responsabilidad de todos</h2>
+            </div>
+
+            <div class="contentConsejos">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="/img/manos.png" class="imgConsejo">
+                        <p class="info-par">Lavarse frecuentemente las manos con agua y jabón</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/img/toser.png" class="imgConsejo">
+                        <p class="info-par">Al toser y estornudar cubrirse la boca y la nariz con el pliegue del codo</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/img/objetos.png" class="imgConsejo">
+                        <p class="info-par">Limpia los objetos de uso común</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="/img/mate.png" class="imgConsejo">
+                        <p class="info-par">No compartas el mate, vasos, cubiertos, etc</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/img/ventila.png" class="imgConsejo">
+                        <p class="info-par">Ventilá los ambientes cerrados</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/img/contacto.png" class="imgConsejo">
+                        <p class="info-par">Evita contacto directo con personas que estén enfermas</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contentPrincipal">
+                <h2 id="chatbot">Este es un sitio web demo del curso "Bots empresariales sin código con Azure (AIT-141)" de AprenderIT</h2>
+            </div>
+
+        </div>
+
+
+        
+    </main>
+    <img  src="/img/globo_texto.png" id="dialog" class="dialog-button" />
+    <img  src="/img/aprendebot.png" class="open-button" onclick="openForm()" />
+    <div class="chat-popup" id="myForm">
+        <div id="webchat" role="main"></div>
+    </div>
+    
+    <footer>
+
+        <div class="container">
+            <div class="contentPrincipal">
+                <p>Más info sobre el curso en <a href="https://aprender.it/" target="_blank">AprenderIT</a></p>
+
+            </div>
+            
+        </div>
+
+    </footer>
+
+  <!-- Scripts section -->
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script> 
+
+  <script src="/js/chat.js"></script>
+
+
+</body>
+
+</html>
